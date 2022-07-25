@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: Boomi
+spec:
+  containers:
+  - name: BoomiAtom
+    image: ubuntu:latest
+    ports:
+    - containerPort: 9090
